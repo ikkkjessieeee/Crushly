@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#f8edda" />
+    <meta name="description" content="Crushly helps you find out when the feeling is mutual, while you're still on campus." />
+    <meta property="og:title" content="Crushly — Your campus crush might like you too" />
+    <meta property="og:description" content="Join the USC private beta." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Crushly — USC Private Beta</title>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="nav">
+      <a class="wordmark" href="#top" aria-label="Crushly home">crushly</a>
+      <button class="nav-cta" data-open-waitlist>join waitlist</button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="heart-field" aria-hidden="true">
+          <span class="heart h1">♥</span><span class="heart h2">♥</span>
+          <span class="heart h3">♥</span><span class="heart h4">♥</span>
+          <span class="heart h5">♥</span><span class="heart h6">♥</span>
+          <span class="heart h7">♥</span><span class="heart h8">♥</span>
+          <span class="heart h9">♥</span><span class="heart h10">♥</span>
+        </div>
+
+        <div class="hero-content">
+          <div class="beta-label"><span></span> USC PRIVATE BETA</div>
+          <h1>your campus<br /><em>crush</em> might<br />like you too.</h1>
+          <p class="hero-copy">A new app to connect with your real-life crush.</p>
+          <button class="primary-cta" data-open-waitlist>
+            join the usc waitlist <span aria-hidden="true">↗</span>
+          </button>
+          <p class="under-cta">18+ · mutual only · exact location stays private</p>
+        </div>
+
+        <a class="scroll-cue" href="#how">see how it works <span>↓</span></a>
+      </section>
+
+      <section class="how" id="how">
+        <p class="section-kicker">A CRUSH, WITHOUT THE GUESSING</p>
+        <h2>the feeling stays private<br />until it’s mutual.</h2>
+
+        <div class="steps">
+          <article>
+            <span class="step-number">01</span>
+            <div class="step-icon">◉</div>
+            <h3>turn on crush mode</h3>
+            <p>Choose when you want to be visible at a campus event or shared space.</p>
+          </article>
+          <article>
+            <span class="step-number">02</span>
+            <div class="step-icon">♡</div>
+            <h3>send a private signal</h3>
+            <p>Pick someone who caught your eye. They never know unless they choose you too.</p>
+          </article>
+          <article>
+            <span class="step-number">03</span>
+            <div class="step-icon filled">♥</div>
+            <h3>find out it’s mutual</h3>
+            <p>When you both choose each other, reveal now or save the connection for later.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="moment">
+        <p class="moment-small">POV: YOU SEE THEM AGAIN</p>
+        <p class="moment-line">at leavey. after class.<br />across the room.</p>
+        <div class="notification">
+          <span class="notification-heart">♥</span>
+          <div><b>crushly</b><p>someone nearby likes you.</p></div>
+          <small>now</small>
+        </div>
+      </section>
+
+      <section class="safety">
+        <div>
+          <p class="section-kicker">CUTE, NOT CREEPY</p>
+          <h2>you stay in control.</h2>
+        </div>
+        <ul>
+          <li><span>01</span> Only people who turn it on can appear.</li>
+          <li><span>02</span> No exact distance, direction, or map.</li>
+          <li><span>03</span> A one-way crush never reveals your identity.</li>
+        </ul>
+      </section>
+
+      <section class="final-cta">
+        <div class="final-heart" aria-hidden="true">♥</div>
+        <p>maybe your crush<br />is waiting too.</p>
+        <button class="primary-cta dark" data-open-waitlist>join the usc waitlist <span>↗</span></button>
+      </section>
+    </main>
+
+    <footer>
+      <span class="wordmark">crushly</span>
+      <span>made for real-life crushes · los angeles</span>
+      <a href="https://tally.so/r/vGQ5GQ" target="_blank" rel="noreferrer">open form</a>
+    </footer>
+
+    <dialog class="waitlist-modal" id="waitlist-modal">
+      <div class="modal-card">
+        <div class="modal-head">
+          <div><span>USC PRIVATE BETA</span><h2>get in early.</h2></div>
+          <button class="close-modal" aria-label="Close waitlist">×</button>
+        </div>
+        <iframe
+          data-tally-src="https://tally.so/embed/vGQ5GQ?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          title="Join the Crushly waitlist"
+          loading="lazy"
+          width="100%"
+          height="520"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
+        <a class="form-fallback" href="https://tally.so/r/vGQ5GQ" target="_blank" rel="noreferrer">form not loading? open it here ↗</a>
+      </div>
+    </dialog>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
